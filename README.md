@@ -45,6 +45,8 @@ Train Accuracy: 0.011191
 
 Test Accuracy: 0.042504
 
+Cost of every 5 epoches is recored in `output.txt`.
+
 It looks like there is a potential overfitting of the model. One possible reason
 is the limited number of data points. Training set has 3480 data points and Test
 has 240. Though shuffle and random mini batch are used for training, the dataset
