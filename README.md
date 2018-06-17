@@ -37,11 +37,13 @@ python exptBikeNYC.py
 ```
 
 ## Result
-First thing I need to mention is long running time of the program since lacking
+First I need to mention is long running time of the program for lacking
 of computational power. For 500 epoches, it took 10.5 hours to finish. `RMSE` is
 used for evaluation of the model, and result as below:
+
 Train Accuracy: 0.011191
+
 Test Accuracy: 0.042504
 
-It looks like there is a potential overfitting of the model, I will dig more
+It looks like there is a potential overfitting of the model. I will dig more
 about the model.
