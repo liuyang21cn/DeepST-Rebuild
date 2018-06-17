@@ -1,0 +1,128 @@
+loading data...
+incomplete days:  []
+train_data shape:  (4152, 2, 16, 8)
+min: 0.0 max: 267.0
+XC shape:  (3720, 6, 16, 8) XP shape:  (3720, 8, 16, 8) XT shape:  (3720, 8, 16, 8) Y shape: (3720, 2, 16, 8)
+train shape: (3480, 6, 16, 8) (3480, 2, 16, 8) test shape:  (240, 6, 16, 8) (240, 2, 16, 8)
+(3480, 6, 16, 8)
+(3480, 8, 16, 8)
+(3480, 8, 16, 8)
+(3480, 8)
+
+(240, 6, 16, 8)
+(240, 8, 16, 8)
+(240, 8, 16, 8)
+(240, 8)
+========== Build model and start traning ==========
+conv2 Tensor("conv2d_9/BiasAdd:0", shape=(?, 16, 8, 2), dtype=float64)
+conv2 Tensor("conv2d_19/BiasAdd:0", shape=(?, 16, 8, 2), dtype=float64)
+conv2 Tensor("conv2d_29/BiasAdd:0", shape=(?, 16, 8, 2), dtype=float64)
+main_output Tensor("AddN:0", shape=(?, 16, 8, 2), dtype=float64)
+external_output Tensor("transpose_3:0", shape=(?, 16, 8, 2), dtype=float64)
+main_output Tensor("transpose_4:0", shape=(?, 2, 16, 8), dtype=float64)
+number of data points 3480
+Cost after epoch 0: 0.067977
+Cost after epoch 5: 0.004337
+Cost after epoch 10: 0.002469
+Cost after epoch 15: 0.002073
+Cost after epoch 20: 0.001908
+Cost after epoch 25: 0.001736
+Cost after epoch 30: 0.001755
+Cost after epoch 35: 0.001594
+Cost after epoch 40: 0.001482
+Cost after epoch 45: 0.001421
+Cost after epoch 50: 0.001362
+Cost after epoch 55: 0.001289
+Cost after epoch 60: 0.001171
+Cost after epoch 65: 0.001122
+Cost after epoch 70: 0.001104
+Cost after epoch 75: 0.001072
+Cost after epoch 80: 0.001032
+Cost after epoch 85: 0.001009
+Cost after epoch 90: 0.001008
+Cost after epoch 95: 0.000918
+Cost after epoch 100: 0.000907
+Cost after epoch 105: 0.000831
+Cost after epoch 110: 0.000806
+Cost after epoch 115: 0.000812
+Cost after epoch 120: 0.000765
+Cost after epoch 125: 0.000728
+Cost after epoch 130: 0.000698
+Cost after epoch 135: 0.000691
+Cost after epoch 140: 0.000655
+Cost after epoch 145: 0.000624
+Cost after epoch 150: 0.000609
+Cost after epoch 155: 0.000582
+Cost after epoch 160: 0.000625
+Cost after epoch 165: 0.000545
+Cost after epoch 170: 0.000522
+Cost after epoch 175: 0.000482
+Cost after epoch 180: 0.000476
+Cost after epoch 185: 0.000464
+Cost after epoch 190: 0.000431
+Cost after epoch 195: 0.000420
+Cost after epoch 200: 0.000409
+Cost after epoch 205: 0.000409
+Cost after epoch 210: 0.000383
+Cost after epoch 215: 0.000377
+Cost after epoch 220: 0.000357
+Cost after epoch 225: 0.000351
+Cost after epoch 230: 0.000341
+Cost after epoch 235: 0.000329
+Cost after epoch 240: 0.000344
+Cost after epoch 245: 0.000317
+Cost after epoch 250: 0.000304
+Cost after epoch 255: 0.000295
+Cost after epoch 260: 0.000285
+Cost after epoch 265: 0.000278
+Cost after epoch 270: 0.000272
+Cost after epoch 275: 0.000270
+Cost after epoch 280: 0.000262
+Cost after epoch 285: 0.000255
+Cost after epoch 290: 0.000256
+Cost after epoch 295: 0.000248
+Cost after epoch 300: 0.000236
+Cost after epoch 305: 0.000228
+Cost after epoch 310: 0.000229
+Cost after epoch 315: 0.000216
+Cost after epoch 320: 0.000218
+Cost after epoch 325: 0.000209
+Cost after epoch 330: 0.000213
+Cost after epoch 335: 0.000217
+Cost after epoch 340: 0.000199
+Cost after epoch 345: 0.000206
+Cost after epoch 350: 0.000194
+Cost after epoch 355: 0.000198
+Cost after epoch 360: 0.000187
+Cost after epoch 365: 0.000185
+Cost after epoch 370: 0.000171
+Cost after epoch 375: 0.000188
+Cost after epoch 380: 0.000174
+Cost after epoch 385: 0.000177
+Cost after epoch 390: 0.000167
+Cost after epoch 395: 0.000175
+Cost after epoch 400: 0.000163
+Cost after epoch 405: 0.000157
+Cost after epoch 410: 0.000156
+Cost after epoch 415: 0.000156
+Cost after epoch 420: 0.000157
+Cost after epoch 425: 0.000151
+Cost after epoch 430: 0.000149
+Cost after epoch 435: 0.000141
+Cost after epoch 440: 0.000154
+Cost after epoch 445: 0.000141
+Cost after epoch 450: 0.000223
+Cost after epoch 455: 0.000132
+Cost after epoch 460: 0.000130
+Cost after epoch 465: 0.000134
+Cost after epoch 470: 0.000138
+Cost after epoch 475: 0.000133
+Cost after epoch 480: 0.000129
+Cost after epoch 485: 0.000125
+Cost after epoch 490: 0.000131
+Cost after epoch 495: 0.000121
+========== Check model accuracy ==========
+Train Accuracy: 0.011191
+Test Accuracy: 0.042504
+ 
+Running time of training and evaluation in seconds 37582.953074
