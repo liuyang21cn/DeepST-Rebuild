@@ -21,7 +21,10 @@ def _shortcut(input, residual):
 def _bn_relu_conv(input, nb_filter, nb_row, nb_col, strides=(1, 1), bn=False):
     # print("_bn_relu_conv", str(input))
     if bn:
-        input = tf.layers.batch_normalization(input, axis=1)
+        # float64 is not supported in batch_normalization
+        input = tf.cast(input, tf.float32)
+        input = tf.layers.batch_normalization(input)
+    input = tf.cast(input, tf.float64)
     activation = tf.nn.relu(input)
     output = tf.layers.conv2d(
             inputs = activation,
