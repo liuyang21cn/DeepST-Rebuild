@@ -45,5 +45,9 @@ Train Accuracy: 0.011191
 
 Test Accuracy: 0.042504
 
-It looks like there is a potential overfitting of the model. I will dig more
-about the model.
+It looks like there is a potential overfitting of the model. One possible reason
+is the limited number of data points. Training set has 3480 data points and Test
+has 240. Though shuffle and random mini batch are used for training, the dataset
+is still not very large. The other potential reason is the hyperparameters setting
+of the model. Like number of residual units, learning rate, etc. I will dig more
+about the model and update.
